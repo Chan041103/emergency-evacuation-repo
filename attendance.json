@@ -1,0 +1,9 @@
+{
+  "attendees": [
+    {
+      "id": "12345678",
+      "time": "10:15:30 PM",
+      "place": "Assembly Point 1 -> OUT"
+    }
+  ]
+}
