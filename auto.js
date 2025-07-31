@@ -9,7 +9,7 @@ async function sendAttendanceToGitHub(attendanceData) {
     
     // GitHub API request to create the file
     const response = await fetch(
-      `https://api.github.com/repos/Chan041103/test-repo/contents/emergency/${filename}`,
+      `https://api.github.com/repos/Chan041103/emergency-evacuation-repo/contents/attendance.json`,
       {
         method: 'PUT',
         headers: {
