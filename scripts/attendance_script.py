@@ -3,10 +3,10 @@ import requests
 import psycopg2
 
 # Database connection settings
-DB_HOST = 'your_database_host'
-DB_NAME = 'your_database_name'
-DB_USER = 'your_database_user'
-DB_PASSWORD = 'your_database_password'
+DB_HOST = 'SINTSA1049.infineon.com'
+DB_NAME = 'ESH_Evacuation_DEV'
+DB_USER = 'esh_evac_j01c'
+DB_PASSWORD = 'QXxM400E&TE-OPS8-'
 
 def process_attendees(data):
     # Process the attendees data
