@@ -24,7 +24,7 @@ def process_attendees(data):
 
     # Insert attendees data into the database
     for attendee in attendees:
-        cur.execute("INSERT INTO attendance (id, time, place) VALUES (%s, %s, %s)", (attendee['id'], attendee['time'], attendee['place']))
+        cur.execute("UPDATE dbo.Employees SET time = %s, place = %s WHERE id = %s", (attendee['time'], attendee['place'], attendee['id']))
     conn.commit()
 
     # Close the database connection
