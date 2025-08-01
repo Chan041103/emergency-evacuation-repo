@@ -8,9 +8,6 @@ DB_NAME = 'your_database_name'
 DB_USER = 'your_database_user'
 DB_PASSWORD = 'your_database_password'
 
-# GitHub API key
-GITHUB_API_KEY = 'your_github_api_key'
-
 def process_attendees(data):
     # Process the attendees data
     attendees_data = json.loads(data)
